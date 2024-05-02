@@ -3,7 +3,7 @@ import tkinter.font as tkFont
 
 
 def button_command():
-    label["text"] = "Kirill"
+    label["text"] = "Kirill Malynka"
     print("command")
 
 
