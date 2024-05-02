@@ -3,6 +3,7 @@ import tkinter.font as tkFont
 
 
 def button_command():
+    label["text"] = "Kirill"
     print("command")
 
 
@@ -36,5 +37,7 @@ if __name__ == "__main__":
     label["justify"] = "center"
     label["text"] = ""
     label.place(x=25, y=10, width=258, height=30)
+
+
 
     root.mainloop()
